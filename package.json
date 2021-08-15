@@ -1,0 +1,19 @@
+{
+  "name": "SendText",
+  "version": "2.1.2",
+  "description": "Minimalistic App, sending text, with Angular and Express and Mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "dbConnectionString": "mongodb://localhost:27017",
+  "dbName": "sendtext",
+  "author": "vinq",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5"
+  }
+}

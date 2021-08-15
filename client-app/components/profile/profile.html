@@ -1,0 +1,4 @@
+<div class="profile-name">hello, {{user.name || 'guest'}}!</div>
+<div class="profile-posts {{ !posts ? 'hide': ''}}">
+	<div ng-repeat="postitem in posts">{{postitem.userfrom}}: {{postitem.post}}</div>
+</div>

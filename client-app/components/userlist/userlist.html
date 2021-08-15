@@ -1,0 +1,13 @@
+Pick a Name:
+<input class="userlist-name" ng-model="name" ng-keydown="check();">
+<div class="{{!list ? 'hide' : ''}} userlist-names">
+	<div ng-repeat="nameitem in list">{{nameitem.name}} <input ng-click="click($event)" type="radio" group="radio1" name="radio1" data-id="{{nameitem.name}}"></div>
+</div>
+<textarea class="{{ !user ? 'hide' : ''}} userlist-post" ng-model="post"></textarea>
+<input class="{{ !user ? 'hide' : ''}} userlist-send-btn" type="submit" ng-click="send()" value="Send" />
+<div class="profile-posts {{ !userpostslist || himself ? 'hide': ''}}">
+	<div ng-repeat="postitem in userpostslist">{{postitem.userfrom}}: {{postitem.post}}</div>
+</div>
+<div class="profile-posts {{ himself ? '': 'hide'}}">
+	It's you!!!
+</div>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Пример работ на Angular и MongoDb и Express</title>
+  <link href="/client-app/styles.css" rel="stylesheet" type="text/css">
+  <script src="/client-app/angular.min.js"></script>
+  <script src="/client-app/app.js"></script>
+  <script src="/client-app/components/auth/auth.component.js"></script>
+  <script src="/client-app/components/register/register.component.js"></script>
+  <script src="/client-app/components/userlist/userlist.component.js"></script>
+  <script src="/client-app/components/postlist/postlist.component.js"></script>
+  <script src="/client-app/components/profile/profile.component.js"></script>
+  <script src="/client-app/components/messages/messages.component.js"></script>
+  <script src="/client-app/components/logout/logout.component.js"></script>
+</head>
+<body class="app" ng-app="SENDTEXT">  
+    <H1 class="title"><span class="app-title">Test App</span></H1><profile class="profile"></profile><logout class="logout"></logout>
+    <div class="auth-blocks"><auth class="auth"></auth><register class="register"></register></div>    
+    <div class="postslist"><postlist></postlist></div>
+    <div class="userslist"><userlist></userlist></div>
+    <div class="messageslist"><messages class="messages"></messages></div>
+    <p class="{{ user ? 'hide': ''}}">
+      You should be register with name and password. After that you will get enable post to users or yourself.
+    </p>
+</body>
+</html>

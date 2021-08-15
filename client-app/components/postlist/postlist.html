@@ -1,0 +1,3 @@
+<div class="profile-posts {{ !userpostslist ? 'hide': ''}}">
+	<div ng-repeat="postitem in userpostslist">{{postitem.userfrom}}: {{postitem.post}}</div>
+</div>

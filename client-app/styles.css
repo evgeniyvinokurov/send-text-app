@@ -1,0 +1,162 @@
+input::placeholder {
+	color: #999;
+}
+
+input {
+	color: #555;
+}
+
+
+
+body {
+	margin: 50px;
+	max-width: 700px;
+	min-width: 700px;
+}
+
+
+
+.hide {
+	display: none;
+}
+
+.app-title {
+	color: green;
+}
+
+
+.green {
+	background-color: #60cc60!important;
+}
+
+
+.title {
+	display: inline-block;
+}
+
+.profile {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+
+
+.auth-blocks {
+	display: block;
+	clear: both;
+}
+
+.auth {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+}
+
+.auth-name {
+	display: block;
+	margin: 3px;
+	margin-top: 7px;
+}
+.auth-password {
+	display: block;
+	margin: 3px;
+}
+.auth-send-btn {
+	display: block;
+	padding: 2px;
+	background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+	margin: 3px;
+}
+
+
+.register {
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+}
+.register-name {
+	display: block;
+	margin: 3px;
+	margin-top: 7px;
+}
+.register-password {
+	display: block;
+	margin: 3px;
+}
+.register-send-btn {
+	display: block;
+	padding: 2px;
+	background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+	margin: 3px;
+}
+
+
+
+.messages {
+
+}
+
+.messages-text {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #e08b8b;
+	width: 200px;
+}
+
+
+
+.userslist {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.userlist-names {
+	margin: 20px;
+}
+.userlist-send-btn {
+	padding: 2px;
+	background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+	margin: 3px;
+}
+
+
+.logout {
+	float: right;
+    margin-top: 20px;
+}
+
+.logout-send-btn {
+	float: right;
+	margin-top: 20px;
+	padding: 2px;
+	background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+.postslist {
+	clear: both;
+    float: left;
+    margin: 50px;
+}
+
+.userslist {
+    float: right;
+}
+
+.messageslist {
+	clear: both;
+}
+.profile-posts {
+	max-width: 250px
+}
